@@ -13,7 +13,7 @@ double averageHerbCost = 2.5;
 
 while (true)
 {
-    string field = Console.ReadLine();
+    string? field = Console.ReadLine();
     if(string.IsNullOrEmpty(field))
     {
         break;
